@@ -171,13 +171,6 @@ nav {
   background-color: #111414;
 }
 
-#mktplace-info {
-  width: 960px;
-  display: table;
-  margin: 0 auto;
-  background-color: black;
-}
-
 .ventures {
   display: inline-block;
   width: 300px;
@@ -237,4 +230,40 @@ nav {
   font-size: 13px;
   font-weight: 400;
   color: #000;
+  padding-bottom: 10vh;
+}
+
+#mktplace-benefits {
+  margin-top: 10vh;
+  font-weight: bold;
+  color: black;
+}
+
+#why-participate {
+  /*
+   #3fedd1 
+   #e73c52
+   #fd840e
+  */
+  text-align: center;
+  background-color: #3fedd1;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.participate {
+  padding-top: 5vh;
+  font-weight: bold;
+  color: black;
+}
+
+.why01 img {
+  width: 40%;
+}
+
+.text-participate {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
 }
