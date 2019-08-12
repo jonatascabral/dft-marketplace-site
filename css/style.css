@@ -219,13 +219,6 @@ main {
   color: white;
 }
 
-.img-benefits {
-  width: 35%;
-}
-
-.why01 img {
-  width: 35% !important;
-}
 
 .text-benefits {
   font-size: 13px;
@@ -254,7 +247,7 @@ main {
 }
 
 .participate {
-  padding-top: 5vh;
+  padding-bottom: 5%;
   font-weight: bold;
   color: black;
 }
@@ -310,11 +303,14 @@ main {
 
 .signup {
   background-color: #3fedd1;
-  padding-top: 0px;
-  margin-bottom: 100px;
-  padding-bottom: 30px;
+  padding-top: 7%;
+  padding-bottom: 10%;
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.row-icons{
+  padding-top: 25px;
 }
