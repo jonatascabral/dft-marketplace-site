@@ -11,7 +11,7 @@
 }
 
 * {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border: 0;
   margin: 0;
   padding: 0;
@@ -24,11 +24,15 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: #3fedd1;
 }
 
 nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+main {
+  background-color: white;
 }
 
 .container {
@@ -36,6 +40,7 @@ nav {
 }
 
 .nav-link {
+  font-family: 'Lexend Deca', 'Montserrat', sans-serif;
   color: black;
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
@@ -50,16 +55,9 @@ nav {
   transform: scale(1.15);
 }
 
-.video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -1000;
-  background-size: cover;
+.msg {
+  background-color: white;
+  padding-top: 1px;
 }
 
 .hero {
@@ -77,10 +75,8 @@ nav {
   color: whitesmoke;
 
   /* Background styles */
-  background-image: linear-gradient(
-      rgba(10, 9, 9, 0.747),
-      rgba(10, 9, 9, 0.747)
-    ),
+  background-image: linear-gradient(rgba(10, 9, 9, 0.747),
+      rgba(10, 9, 9, 0.747)),
     url(/img/hero-fashion.jpg);
   background-size: cover;
   background-position: center center;
@@ -100,7 +96,7 @@ nav {
 .hero .btn {
   /* Positioning and sizing */
   display: block;
-  width: 250px;
+  width: 350px;
   border-radius: 1px;
 
   /* Padding and margins */
@@ -116,6 +112,12 @@ nav {
 
   /* Border styles */
   border: 1px solid whitesmoke;
+
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
 }
 
 .hero .btn:hover {
@@ -125,6 +127,7 @@ nav {
   font-weight: 500;
   border: 1px solid black;
   background-color: whitesmoke;
+  transform: scale(1.02);
 }
 
 .hero-section {
@@ -138,12 +141,14 @@ nav {
 
 .wrapper {
   padding-bottom: 30px;
+  background-color: white;
 }
 
 .divider {
   position: relative;
   margin-top: 30px;
   height: 3px;
+  background-color: white;
 }
 
 .div-transparent:before {
@@ -154,12 +159,10 @@ nav {
   right: 5%;
   width: 90%;
   height: 3px;
-  background-image: linear-gradient(
-    to right,
-    transparent,
-    rgb(14, 15, 15),
-    transparent
-  );
+  background-image: linear-gradient(to right,
+      transparent,
+      rgb(14, 15, 15),
+      transparent);
 }
 
 #mensagem {
@@ -223,7 +226,11 @@ nav {
 }
 
 .img-benefits {
-  width: 70%;
+  width: 35%;
+}
+
+.why01 img {
+  width: 35% !important;
 }
 
 .text-benefits {
@@ -247,8 +254,9 @@ nav {
   */
   text-align: center;
   background-color: #3fedd1;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+  padding-bottom: 0px;
 }
 
 .participate {
@@ -266,4 +274,49 @@ nav {
   text-align: center;
   font-weight: bold;
   color: black;
+}
+
+.btn-cadastro {
+  /* Positioning and sizing */
+  display: block;
+  width: 350px;
+  border-radius: 1px;
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  background-color: black;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1em;
+
+  /* Border styles */
+  border: 1px solid black;
+
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
+}
+
+.btn-cadastro:hover {
+
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  transform: scale(1.01);
+}
+
+.signup {
+  background-color: #3fedd1;
+  padding-top: 0px;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
 }
