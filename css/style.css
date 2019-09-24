@@ -40,7 +40,7 @@ main {
 }
 
 .nav-link {
-  font-family: 'Lexend Deca', 'Montserrat', sans-serif;
+  font-family: "Lexend Deca", "Montserrat", sans-serif;
   color: black;
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
@@ -75,8 +75,10 @@ main {
   color: whitesmoke;
 
   /* Background styles */
-  background-image: linear-gradient(rgba(10, 9, 9, 0.747),
-      rgba(10, 9, 9, 0.747)),
+  background-image: linear-gradient(
+      rgba(10, 9, 9, 0.747),
+      rgba(10, 9, 9, 0.747)
+    ),
     url(/img/hero-fashion.jpg);
   background-size: cover;
   background-position: center center;
@@ -159,10 +161,12 @@ main {
   right: 5%;
   width: 90%;
   height: 3px;
-  background-image: linear-gradient(to right,
-      transparent,
-      rgb(14, 15, 15),
-      transparent);
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(14, 15, 15),
+    transparent
+  );
 }
 
 #mensagem {
@@ -219,7 +223,6 @@ main {
   color: white;
 }
 
-
 .text-benefits {
   font-size: 13px;
   font-weight: 400;
@@ -266,7 +269,7 @@ main {
 .btn-cadastro {
   /* Positioning and sizing */
   display: block;
-  width: 350px;
+  width: 300px;
   border-radius: 1px;
   /* Padding and margins */
   padding: 1em;
@@ -291,7 +294,6 @@ main {
 }
 
 .btn-cadastro:hover {
-
   color: black;
   text-decoration: none;
   font-size: 1em;
@@ -303,7 +305,6 @@ main {
 
 .signup {
   background-color: #3fedd1;
-  padding-top: 7%;
   padding-bottom: 10%;
 }
 
@@ -311,6 +312,6 @@ main {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.row-icons{
+.row-icons {
   padding-top: 25px;
 }
